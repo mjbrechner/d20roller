@@ -3,11 +3,15 @@ body {
     background-color: rgb(138, 18, 9);
     color: rgb(221, 187, 36);
     background-image: url(../images/background.jpg);
+    font-family: 'Handlee', cursive;
 }
 
-h1,
-p {
+h1,p {
     margin: 10px;
+}
+
+p {
+    font-size: 20px;
 }
 
 main {
@@ -26,6 +30,7 @@ main {
     border-radius: 5px;
     width: 100px;
     height: 40px;
+    font-family: 'Bangers', cursive;
     font-size: 30px;
     border-color: rgb(60, 32, 32);
     margin: 10px;

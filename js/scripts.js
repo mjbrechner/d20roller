@@ -10,5 +10,9 @@ function rollRandomizer() {
     document.getElementById("die-display").visibility = "visible";
     document.getElementById("die-display").src = dieImage[die - 1];
     document.getElementById("die-display").alt = `d${die}`;
-    document.getElementById("roll-result").textContent = `You rolled a ${die}!`;
+    if (die === 20) {
+        document.getElementById("roll-result").textContent = `You rolled a ${die}! Wow!`;
+    } else {
+        document.getElementById("roll-result").textContent = `You rolled a ${die}.`;
+    }
 };
