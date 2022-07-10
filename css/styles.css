@@ -1,6 +1,12 @@
 body {
+    all: none;
     background-color: rgb(138, 18, 9);
     color: rgb(221, 187, 36);
+}
+
+h1,
+p {
+    margin: 10px;
 }
 
 main {
@@ -10,7 +16,6 @@ main {
 }
 
 #roller-button {
-
     background-color: rgb(45, 45, 122);
     color: rgb(221, 187, 36);
     border-radius: 5px;
@@ -18,6 +23,7 @@ main {
     height: 40px;
     font-size: 30px;
     border-color: rgb(60, 32, 32);
+    margin: 10px;
 }
 
 #roller-button:hover {
@@ -26,9 +32,9 @@ main {
 }
 
 #die-display {
-    all:none;
+    all: none;
     width: 150px;
     height: 150px;
     border-style: none;
-    padding-top: 10px;
+    margin-top: 10px;
 }
