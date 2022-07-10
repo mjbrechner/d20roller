@@ -2,6 +2,7 @@ body {
     all: none;
     background-color: rgb(138, 18, 9);
     color: rgb(221, 187, 36);
+    background-image: url(../images/background.jpg);
 }
 
 h1,
@@ -13,6 +14,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-basis: auto;
+    border: solid;
+    margin: 5px, 10%;
+    background-color: rgb(138, 18, 9);
 }
 
 #roller-button {
@@ -31,10 +36,11 @@ main {
     cursor: pointer;
 }
 
+
 #die-display {
-    all: none;
     width: 150px;
     height: 150px;
     border-style: none;
-    margin-top: 10px;
+    margin: 10px;
+    background-image: url(../images/background.jpg);
 }
