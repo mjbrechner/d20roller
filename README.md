@@ -1,1 +1,1 @@
-Basic 20-sied die roller.
+Basic 20-sided die.
