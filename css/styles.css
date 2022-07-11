@@ -1,14 +1,11 @@
 body {
     background-color: rgb(138, 18, 9);
     color: rgb(221, 187, 36);
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/backgroundhero.jpg);
     font-family: 'Handlee', cursive;
 }
 
-
-
 a:visited {
-    text-decoration: none;
     color: rgb(221, 187, 36);
 }
 
@@ -73,12 +70,11 @@ main {
     cursor: pointer;
 }
 
-
 #die-display {
     width: 150px;
     height: 150px;
     border: solid;
     border-radius: 5px;
     margin: 10px;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/backgrounddie.jpg);
 }
