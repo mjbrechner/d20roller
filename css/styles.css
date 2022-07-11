@@ -1,27 +1,59 @@
 body {
-    all: none;
     background-color: rgb(138, 18, 9);
     color: rgb(221, 187, 36);
     background-image: url(../images/background.jpg);
     font-family: 'Handlee', cursive;
 }
 
-h1,p {
+
+
+a:visited {
+    text-decoration: none;
+    color: rgb(221, 187, 36);
+}
+
+h1 {
     margin: 10px;
 }
 
-p {
+#roll-result {
     font-size: 20px;
+    margin: 10px;
 }
 
+#credits {
+    font-size: .70em;
+    margin-top: 20px;
+}
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-basis: auto;
     border: solid;
-    margin: 5px, 10%;
+    border-radius: 5px;
+    margin: 1% 5%;
     background-color: rgb(138, 18, 9);
+}
+
+/* tablets */
+@media (min-width: 600px) {
+    main {
+        margin: 1% 6%;
+    }
+    #credits {
+    font-size: .80em;
+}
+}
+
+/* desktops */
+@media (min-width: 900px) {
+    main {
+        margin: 1% 7%;
+    }
+    #credits {
+    font-size: .90em;
+}
 }
 
 #roller-button {
@@ -30,7 +62,7 @@ main {
     border-radius: 5px;
     width: 100px;
     height: 40px;
-    font-family: 'Bangers', cursive;
+    font-family: 'Bangers', fantasy;
     font-size: 30px;
     border-color: rgb(60, 32, 32);
     margin: 10px;
@@ -45,7 +77,8 @@ main {
 #die-display {
     width: 150px;
     height: 150px;
-    border-style: none;
+    border: solid;
+    border-radius: 5px;
     margin: 10px;
     background-image: url(../images/background.jpg);
 }
